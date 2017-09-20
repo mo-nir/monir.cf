@@ -110,6 +110,7 @@ a:hover {
     padding: 30px 20px;
     border: 1px solid #ddd;
     border-top: 0px solid;
+    transition: .3s;
 }
 
 .single-blog-box:hover .single-blog-box-contents {
@@ -153,6 +154,7 @@ a:hover {
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 4px;
+    transition: .3s;
 }
 
 .blog-readmore-btn:hover {
