@@ -1,0 +1,149 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #565656;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.blog-box-bg-1 {
+    background-image: url(../img/blog-box-img-1.jpg);
+}
+
+.blog-box-bg-2 {
+    background-image: url(../img/blog-box-img-2.jpg);
+}
+
+.blog-box-bg-3 {
+    background-image: url(../img/blog-box-img-3.jpg);
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #222;
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+}
+
+.blog-box-bg {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    border: 1px solid #fdaf67;
+}
+
+.blog-box-content {
+    border: 1px solid #E9E9E9;
+    border-top: 0px solid;
+    padding: 25px 20px;
+    transition: .3s;
+}
+
+.single-blog-box:hover .blog-box-content {
+    border-color: #FF8F17;
+}
+
+.blog-box-content h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.blog-meta {
+    font-size: 14px;
+}
+
+.blog-meta span {
+    margin-right: 25px;
+}
+
+.blog-meta span:last-child {
+    margin-right: 0;
+}
+
+.blog-meta a {
+    color: #565656;
+    
+}
+
+.blog-meta i {
+    color: #FF8F17;
+    margin-right: 10px;
+}
+
+.blog-readmore-btn {
+    background: #FF8F17;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 5px;
+    transition: .3s;
+    font-weight: 700;
+}
+
+.blog-readmore-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+@media only screen and (max-width: 991px) { 
+    .single-blog-box{
+        margin-bottom: 30px;
+    }    
+    .single-blog-box:last-child{
+        margin-bottom: 0px;
+    }
+    
+}
