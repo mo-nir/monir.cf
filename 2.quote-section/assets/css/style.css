@@ -1,0 +1,141 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.quote-form-wrap {
+    padding: 55px 100px;
+    color: #fff;
+    background-color: #19B5FE;
+    margin-top: -84px;
+}
+
+.quote-form-wrap h3 {
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.quote-form-wrap h3:before {
+    content: '';
+    height: 1px;
+    width: 115px;
+    background-color: #fff;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote-form-wrap h3:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 13px;
+    width: 13px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: -6.5px;
+    background-color: #19B5FE;
+}
+
+input,
+textarea {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    max-height: 100px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+}
+
+button {
+    background-color: #fff;
+    color: #19B5FE;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 54px;
+}
+
+input {
+    margin-bottom: 29px;
+}
