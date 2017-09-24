@@ -34,15 +34,81 @@ h6 {
     font-weight: 700;
 }
 
-body {}
+body {
+    color: #B9B9B9;
+    font-size: 15px;
+    line-height: 1.6;
+}
 
 a:hover {
     text-decoration: none
+}
+
+.video-section {
+    position: relative;
+    margin: 50px 0;
 }
 
 .video-bg {
     background-image: url(../img/video-bg.jpg);
     background-size: cover;
     background-position: center;
-    background-color: #ddd
+    background-color: #ddd;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 45%;
+}
+
+.video-play-btn {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ECC71;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 26px;
+}
+
+.video-section-content {
+    padding: 60px 0;
+}
+
+.video-section-content h3 {
+    color: #373737;
+    font-size: 23px;
+}
+
+.video-section-content p {
+    padding: 30px 0;
+}
+
+.video-section-ul {
+    list-style: none;
+    color: #373737;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.video-section-ul li {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.video-section-ul li:before {
+    position: absolute;
+    content: "\f00c";
+    font-family: fontawesome;
+    left: 0;
+    top: 0;
+    color: #2ECC71;
 }
