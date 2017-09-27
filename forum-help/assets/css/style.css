@@ -1,0 +1,103 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	color:#333;
+}
+body {
+	color: #a9a9a9;
+	line-height: 1.7;
+	font-size: 15px;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+	padding: 50px 0;
+}
+.section-bg-1 {
+	position:relative;
+}
+.section-bg-1::before {
+	background-image: url(../img/jam.jpg);
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 45%;
+	left: 0;
+	top: 0;
+	background-color: #ddd;
+	background-position: center;
+	background-size: cover;
+}
+
+h2.section-title {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+h2.section-title span {
+  color: #1AB5FE;
+}
+.style-colaps {
+	min-height: 518px;
+}
+.panel-default > .panel-heading {
+	background: none;
+}
+.style-colaps .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top: 0;
+}
+.style-colaps .panel-title a {
+	display: block;
+	padding: 10px;
+	text-decoration:none;
+}
+.style-colaps .panel-title a i.fa {
+	float: right;
+	font-size: 20px;
+	line-height: 20px;
+	display: none;
+}
+.style-colaps .panel-title a[aria-expanded=false] i.fa-plus {
+	display:block;
+}
+.style-colaps .panel-title a[aria-expanded=true] i.fa-minus {
+	display:block;
+}
+.style-colaps .panel-group .panel {
+	border-radius: 0;
+	box-shadow: 0 0 0;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
