@@ -119,5 +119,6 @@ a:hover {
 
 .styled-faq .panel-group .panel .panel-collapse .panel-body{
     border: none;                     /* hide border-top from panel-body */
-    padding-top: 2px;                 /* reduce space between panel-body and panel-heading */
+    padding-top: 3px;                 /* reduce space between panel-body and panel-heading */    
+    padding-bottom: 3px;              /* reduce space panel-body bottom */
 }
