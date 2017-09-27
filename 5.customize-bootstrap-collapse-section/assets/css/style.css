@@ -1,0 +1,118 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-size: 16;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+a:hover {
+    text-decoration: none
+}
+.section-padding {
+    padding: 80px 0;
+    margin: 50px 0;
+    min-height: 524px;
+}
+
+.section-bg {
+    position: relative;
+}
+
+.section-bg:after {
+    background-image: url(../img/section-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 45%;
+    position: absolute;
+    content: '';
+    z-index: -1;
+}
+
+.section-title span {
+    color: #20B6FC;
+}
+
+
+/*accordian*/
+
+.styled-faq {
+    margin-top: 30px;
+}
+
+.styled-faq .panel-group .panel {
+/*  border: none; */                  /* each accordian outside border none */
+    border-color: #f1f1f1;            /* each accordian outside border-color */
+    border-radius: 0;                 /* each accordian outside border-radius */
+    box-shadow: none;                 /* each accordian outside box-shadow */
+    margin-bottom: 20px;
+}
+
+.styled-faq .panel-group .panel .panel-heading {
+    background-color: transparent;    /* accordian heading background-color */
+    color: #000;                      /* accordian heading color */
+    padding: 0;                       /* accordian heading padding */
+}
+
+.styled-faq .panel-group .panel .panel-heading h4 a {
+    padding: 10px 15px;               /* accordian heading link padding */
+    text-decoration: none;            /* hide underline from a */
+    display: flex;                    /* dislplay flex */
+    justify-content: space-between;   /* left-right alignment */
+    align-items: center;              /* top-bottom centering */
+}
+
+.styled-faq .panel-group .panel .panel-heading h4 a i{
+    display: none;                    /* firstly hide all icon inside a */
+}
+
+.styled-faq .panel-group .panel .panel-heading h4 a[aria-expanded=false] i.icon-open{
+    display: block;                   /* show icon having icon-open class inside a */
+}
+
+.styled-faq .panel-group .panel .panel-heading h4 a[aria-expanded=true] i.icon-close{
+    display: block;                   /* show icon having icon-close class inside a */
+}
+
+.styled-faq .panel-group .panel .panel-collapse .panel-body{
+    border: none;                     /* hide border-top from panel-body */
+    padding-top: 2px;                 /* reduce space between panel-body and panel-heading */
+}
