@@ -1,0 +1,128 @@
+/* Base CSS */
+
+a:focus {
+    outline: 0 solid
+}
+
+a:hover {
+    text-decoration: none
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #242524;
+}
+
+h3 {
+    font-size: 25px;
+    color: #616261;
+}
+
+body {
+    font-size: 17px;
+    line-height: 2;
+    font-weight: 400;
+    color: #a0a0a0;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    padding-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+}
+
+.section-title h2 span {
+    color: #26a65b;
+}
+
+.single-pricing-box {
+    border: 3px solid #ddd;
+    padding: 30px;
+    transition: 0.4s;
+}
+
+.single-pricing-box:hover {
+    border-color: #ec4996;
+}
+
+.pricing-icon {
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+.pricing-icon img {
+    height: 45px;
+}
+
+.pricing-lists {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.pricing-lists ul {
+    padding: 0;
+}
+
+.pricing-lists li {
+    list-style: none;
+    position: relative;
+    padding-left: 44px;
+    transition: .4s;
+}
+
+.pricing-lists li:hover {
+    margin-left: 4px;
+}
+
+.pricing-lists li:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: fontawesome;
+    content: "\f00c";
+    color: #26a65b;
+}
+
+.pricing-lists li.special:before {
+    content: "\f00d";
+    color: red;
+}
+
+h3.pricing-count {
+    font-size: 26px;
+    color: #242524;
+    text-transform: capitalize;
+}
+
+.pricing-btn {
+    border: 1px solid green;
+    padding: 7px 28px;
+    border-radius: 25px;
+    margin-top: 20px;
+    display: inline-flex;
+    text-transform: capitalize;
+    color: #a0a0a0;
+}
+
+.pricing-btn:hover {
+    background-color: greenyellow;
+}
