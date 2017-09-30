@@ -1,0 +1,127 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-bg {
+    background-color: #f1f1f1;
+}
+
+.section-title {
+    margin-bottom: 80px;
+}
+
+.section-title h2 {
+    margin-bottom: 7px;
+}
+
+.section-borders span {
+    height: 5px;
+    width: 34px;
+    display: inline-block;
+    background-color: #6aaf08;
+    border-radius: 15px;
+}
+
+.section-borders span.middle {
+    width: 20px;
+    background-color: #222;
+    margin: 0 4px;
+}
+
+.single-carousel-item {
+    border: 1px solid #d5dccc;
+    padding: 20px 20px 20px 80px;
+    font-style: italic;
+    position: relative;
+    box-shadow: 0 0 10px #d5dccc;
+}
+
+.single-carousel-item:before {
+    width: 3px;
+    height: calc(100% - 40px);
+    background-color: #d1d1d1;
+    content: '';
+    left: 60px;
+    position: absolute;
+}
+
+.single-carousel-item:after {
+    font-family: fontawesome;
+    content: "\f10e";
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 25px;
+    color: #6aaf08
+}
+
+.single-carousel-meta {
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.single-carousel-meta h4 {
+    margin-bottom: 0;
+}
+
+.carousel .owl-dots {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.carousel .owl-dots .owl-dot {
+    display: inline-block;
+    height: 3px;
+    width: 15px;
+    background-color: #6aaf08;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+.carousel .owl-dots .owl-dot.active {
+    width: 25px;
+    background-color: #222222;
+}
