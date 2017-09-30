@@ -1,0 +1,93 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #373737;
+    text-transform: capitalize;
+}
+body {
+    color: #8b8b8b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    
+}
+a:hover, a:active, a:focus { text-decoration: none; color: #2ecc71; }
+
+.service-bg.bg-1{background-image: url(../img/service-bg-1.jpg);}
+.service-bg.bg-2{background-image: url(../img/service-bg-2.jpg);}
+.service-bg.bg-3{background-image: url(../img/service-bg-3.jpg);}
+.service-bg.bg-4{background-image: url(../img/service-bg-4.jpg);}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.gray-bg {
+    background-color: #fafafa;
+}
+
+.section-title h2 {
+    margin-bottom: 60px;
+    padding: 5px;
+}
+
+.service-bg {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 221px;
+}
+
+.service-content {
+    padding: 30px 25px 20px;
+}
+
+.see-more-btn {
+    padding: 10px 0;
+    color: #2ecc71;
+    border-radius: 20px;
+    transition: .4s;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.see-more-btn:hover {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.see-more-btn i {
+    padding-left: 10px;
+}
+
+.single-service-item {
+    background-color: #fff;
+}
+
+.single-service-item:hover {
+    box-shadow: 0 0 15px #8ae1af;
+}
