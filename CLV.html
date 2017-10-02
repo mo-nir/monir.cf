@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>CLV Calculator</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <style>
+            body {
+                width: 400px;
+                margin: 0 auto;
+            }
+
+            h3 {
+                text-align: center;
+                margin-bottom: 70px;
+            }
+
+            p {
+                font-weight: bold;
+            }
+
+            p span {
+                margin-left: 36px;
+                font-weight: normal;
+            }
+
+            input {
+                float: right;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h3>Customer Life Time Revenue Calculator</h3>
+
+        <div ng-app="">
+
+            <p>Revenue: <input type="number" ng-model="revenue"></p>
+            <p>Gross Margin Profit: <input type="number" ng-model="marginProfit"></p>
+            <p>Churn Rate: <input type="number" ng-model="churnRate"></p>
+            <p>Customer Lifetime Value: <span>{{(revenue*marginProfit)/churnRate}}</span></p>            
+            <p>Customer Lifetime Value: <span ng-bind="(revenue*marginProfit)/churnRate"></span>
+            </p>
+
+        </div>
+
+
+    </body>
+
+</html>
