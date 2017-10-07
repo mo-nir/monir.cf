@@ -36,7 +36,8 @@ h6 {
 }
 
 body {
-/*    font-family: 'Lohit Bengali', sans-serif;*/
+    font-family: 'Lohit Bengali', sans-serif;
+    font-weight: 600;
 }
 
 a:hover {
