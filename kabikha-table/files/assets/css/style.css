@@ -44,8 +44,15 @@ a:hover {
     text-decoration: none
 }
 
-tbody, tr, th,
- td {
+tbody,
+tr,
+th,
+td {
     border: 1px solid #000;
     text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
 }
