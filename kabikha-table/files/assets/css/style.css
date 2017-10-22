@@ -56,3 +56,14 @@ th,
 td {
     padding: 10px;
 }
+
+.form-group{
+    display: inline-grid;
+    border: 1px solid #000;
+}
+label {
+    border-top: 1px solid #000;
+}
+label:first-child{
+    border-top: none;
+}
